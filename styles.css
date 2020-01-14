@@ -149,7 +149,11 @@ body {
     font-size: 10px;
   }
   #deployar{
-    font-size: 32px;
+    top: -70%;
+    font-size: 35px;
+  }
+  .byline{
+    top: 10%;
   }
 }
 
