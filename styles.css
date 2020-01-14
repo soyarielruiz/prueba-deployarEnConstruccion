@@ -130,11 +130,26 @@ body {
   top: 50%;
 }
 
+@font-face{
+  font-family: Starjedi;
+  src:url(star_jedi/starjedi/Starjhol.ttf);
+}
+#deployar{
+  font-family: Starjedi;
+  font-size: 60px;
+  color: yellow;  
+  top: 0%;
+
+
+}
 /*** Media queries for adjusting to different screen sizes ***/
 
 @media only screen and (max-width: 600px) {
   .starwars-demo {
     font-size: 10px;
+  }
+  #deployar{
+    font-size: 32px;
   }
 }
 
@@ -142,16 +157,4 @@ body {
   .starwars-demo {
     font-size: 7px;
   }
-}
-@font-face{
-  font-family: Starjedi;
-  src:url(star_jedi/starjedi/Starjhol.ttf);
-}
-#deployar{
-  font-family: Starjedi;
-  font-size: 70px;
-  color: yellow;  
-  top: 0%;
-
-
 }
